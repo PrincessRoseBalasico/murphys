@@ -1,34 +1,14 @@
-
- .green-background{
-   color:#004030 ;
-   height: 200px;
- }
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
+body{
+  --bs-body-color: white;
+  background: url("Murphys pic.png") no-repeat center center fixed;
+  background-size: cover;
 }
-
-.image {
-  width: 100%;
-  height: auto;
+.nav{
+  --bs-nav-link-color:white;
 }
-.icon-container{
-  display: flex;
-  align-items: center;
+#topMenu #bottomMenu{
+  background-color: #1B4F24;
 }
-.icon{
-  margin-right: 10px;
-  color: white;
-}
-
-.text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
-  font-size: 50px;
-  font-weight: bolder;
+#centerText{
+  height: 650px;
 }
